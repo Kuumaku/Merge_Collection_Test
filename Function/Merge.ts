@@ -1,5 +1,4 @@
-
-function merge_collection(collection1:number[], collection2:number[], collection3:number[]):number[]{
+export function merge_collection(collection1:number[], collection2:number[], collection3:number[]):number[]{
 
     var C1_l:number = collection1.length;//length of collection1
     var C2_l:number = collection2.length;//length of collection2
@@ -51,14 +50,3 @@ function merge_collection(collection1:number[], collection2:number[], collection
 
     return results
 }
-
-const c1:number[] = [1,2,3];
-const c2:number[] = [3,5,6];
-const c3:number[] = [6,3,2,2];
-
-const test_results:number[] = merge_collection(c1, c2, c3);
-
-console.log(test_results)
-
-export{}
-
