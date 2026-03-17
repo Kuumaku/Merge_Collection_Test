@@ -50,3 +50,9 @@ export function merge_collection(collection1:number[], collection2:number[], col
 
     return results
 }
+
+const col1  = [1,2,3];
+const col2  = [4,5,6];
+const col3  = [9,8,7];
+
+console.log(merge_collection(col1, col2, col3));

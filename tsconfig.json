@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./executable",
+    "rootDir": "./",
+    "module": "commonjs",
+    "target": "es2019",
+    "esModuleInterop": true
+  },
+  "include": ["Function/**/*"]
+}
