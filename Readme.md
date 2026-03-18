@@ -36,7 +36,15 @@ m = size of collection_2
 
 k = size of collection_3
 
-This is achieved by using a three-pointer merge approach, traversing each collection only once.
+This is achieved by using a three iterators merge approach, traversing each collection only once.
+```
+
+## Getting Started
+```
+Initialize the project
+ If you are starting in a fresh folder, initialize Git and NPM first: Please types below commands into your terminal
+    git init
+    npm init -y
 ```
 
 ## Installation
